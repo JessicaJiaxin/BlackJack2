@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40381FB11AA02CB10070F88F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40381FB01AA02CB10070F88F /* AppDelegate.swift */; };
+		40381FB31AA02CB10070F88F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40381FB21AA02CB10070F88F /* ViewController.swift */; };
+		40381FB81AA02CB10070F88F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40381FB71AA02CB10070F88F /* Images.xcassets */; };
+		40381FBB1AA02CB10070F88F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40381FB91AA02CB10070F88F /* LaunchScreen.xib */; };
+		40381FC71AA02CB10070F88F /* BlackJack2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40381FC61AA02CB10070F88F /* BlackJack2Tests.swift */; };
+		40381FD11AA02D330070F88F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40381FD01AA02D330070F88F /* Card.swift */; };
+		40381FD31AA02D450070F88F /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40381FD21AA02D450070F88F /* Deck.swift */; };
+		40381FD51AA02DDC0070F88F /* Gamer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40381FD41AA02DDC0070F88F /* Gamer.swift */; };
+		40381FD71AA02E5F0070F88F /* Dealer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40381FD61AA02E5F0070F88F /* Dealer.swift */; };
+		40381FD91AA02E6C0070F88F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40381FD81AA02E6C0070F88F /* Player.swift */; };
+		40381FDB1AA02EF20070F88F /* PlayGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40381FDA1AA02EF20070F88F /* PlayGround.swift */; };
+		40381FDD1AA02F120070F88F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40381FDC1AA02F120070F88F /* GameViewController.swift */; };
+		40381FDF1AA02F270070F88F /* PreGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40381FDE1AA02F270070F88F /* PreGameViewController.swift */; };
+		40381FE21AA02FA10070F88F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40381FE01AA02FA10070F88F /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40381FC11AA02CB10070F88F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40381FA31AA02CB10070F88F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40381FAA1AA02CB10070F88F;
+			remoteInfo = BlackJack2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40381FAB1AA02CB10070F88F /* BlackJack2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackJack2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40381FAF1AA02CB10070F88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40381FB01AA02CB10070F88F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40381FB21AA02CB10070F88F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40381FB71AA02CB10070F88F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		40381FBA1AA02CB10070F88F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		40381FC01AA02CB10070F88F /* BlackJack2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackJack2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40381FC51AA02CB10070F88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40381FC61AA02CB10070F88F /* BlackJack2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJack2Tests.swift; sourceTree = "<group>"; };
+		40381FD01AA02D330070F88F /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		40381FD21AA02D450070F88F /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		40381FD41AA02DDC0070F88F /* Gamer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gamer.swift; sourceTree = "<group>"; };
+		40381FD61AA02E5F0070F88F /* Dealer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dealer.swift; sourceTree = "<group>"; };
+		40381FD81AA02E6C0070F88F /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		40381FDA1AA02EF20070F88F /* PlayGround.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGround.swift; sourceTree = "<group>"; };
+		40381FDC1AA02F120070F88F /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		40381FDE1AA02F270070F88F /* PreGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreGameViewController.swift; sourceTree = "<group>"; };
+		40381FE11AA02FA10070F88F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = BlackJack2/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40381FA81AA02CB10070F88F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40381FBD1AA02CB10070F88F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40381FA21AA02CB10070F88F = {
+			isa = PBXGroup;
+			children = (
+				40381FAD1AA02CB10070F88F /* BlackJack2 */,
+				40381FC31AA02CB10070F88F /* BlackJack2Tests */,
+				40381FAC1AA02CB10070F88F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40381FAC1AA02CB10070F88F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40381FAB1AA02CB10070F88F /* BlackJack2.app */,
+				40381FC01AA02CB10070F88F /* BlackJack2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40381FAD1AA02CB10070F88F /* BlackJack2 */ = {
+			isa = PBXGroup;
+			children = (
+				40381FB01AA02CB10070F88F /* AppDelegate.swift */,
+				40381FB21AA02CB10070F88F /* ViewController.swift */,
+				40381FB71AA02CB10070F88F /* Images.xcassets */,
+				40381FB91AA02CB10070F88F /* LaunchScreen.xib */,
+				40381FE01AA02FA10070F88F /* Main.storyboard */,
+				40381FAE1AA02CB10070F88F /* Supporting Files */,
+				40381FD01AA02D330070F88F /* Card.swift */,
+				40381FD21AA02D450070F88F /* Deck.swift */,
+				40381FD41AA02DDC0070F88F /* Gamer.swift */,
+				40381FD61AA02E5F0070F88F /* Dealer.swift */,
+				40381FD81AA02E6C0070F88F /* Player.swift */,
+				40381FDA1AA02EF20070F88F /* PlayGround.swift */,
+				40381FDC1AA02F120070F88F /* GameViewController.swift */,
+				40381FDE1AA02F270070F88F /* PreGameViewController.swift */,
+			);
+			path = BlackJack2;
+			sourceTree = "<group>";
+		};
+		40381FAE1AA02CB10070F88F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40381FAF1AA02CB10070F88F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40381FC31AA02CB10070F88F /* BlackJack2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				40381FC61AA02CB10070F88F /* BlackJack2Tests.swift */,
+				40381FC41AA02CB10070F88F /* Supporting Files */,
+			);
+			path = BlackJack2Tests;
+			sourceTree = "<group>";
+		};
+		40381FC41AA02CB10070F88F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40381FC51AA02CB10070F88F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40381FAA1AA02CB10070F88F /* BlackJack2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40381FCA1AA02CB10070F88F /* Build configuration list for PBXNativeTarget "BlackJack2" */;
+			buildPhases = (
+				40381FA71AA02CB10070F88F /* Sources */,
+				40381FA81AA02CB10070F88F /* Frameworks */,
+				40381FA91AA02CB10070F88F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlackJack2;
+			productName = BlackJack2;
+			productReference = 40381FAB1AA02CB10070F88F /* BlackJack2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40381FBF1AA02CB10070F88F /* BlackJack2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40381FCD1AA02CB10070F88F /* Build configuration list for PBXNativeTarget "BlackJack2Tests" */;
+			buildPhases = (
+				40381FBC1AA02CB10070F88F /* Sources */,
+				40381FBD1AA02CB10070F88F /* Frameworks */,
+				40381FBE1AA02CB10070F88F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40381FC21AA02CB10070F88F /* PBXTargetDependency */,
+			);
+			name = BlackJack2Tests;
+			productName = BlackJack2Tests;
+			productReference = 40381FC01AA02CB10070F88F /* BlackJack2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40381FA31AA02CB10070F88F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jiaxin Li";
+				TargetAttributes = {
+					40381FAA1AA02CB10070F88F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					40381FBF1AA02CB10070F88F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 40381FAA1AA02CB10070F88F;
+					};
+				};
+			};
+			buildConfigurationList = 40381FA61AA02CB10070F88F /* Build configuration list for PBXProject "BlackJack2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40381FA21AA02CB10070F88F;
+			productRefGroup = 40381FAC1AA02CB10070F88F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40381FAA1AA02CB10070F88F /* BlackJack2 */,
+				40381FBF1AA02CB10070F88F /* BlackJack2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40381FA91AA02CB10070F88F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40381FE21AA02FA10070F88F /* Main.storyboard in Resources */,
+				40381FBB1AA02CB10070F88F /* LaunchScreen.xib in Resources */,
+				40381FB81AA02CB10070F88F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40381FBE1AA02CB10070F88F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40381FA71AA02CB10070F88F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40381FDB1AA02EF20070F88F /* PlayGround.swift in Sources */,
+				40381FD31AA02D450070F88F /* Deck.swift in Sources */,
+				40381FDF1AA02F270070F88F /* PreGameViewController.swift in Sources */,
+				40381FD51AA02DDC0070F88F /* Gamer.swift in Sources */,
+				40381FD71AA02E5F0070F88F /* Dealer.swift in Sources */,
+				40381FDD1AA02F120070F88F /* GameViewController.swift in Sources */,
+				40381FB31AA02CB10070F88F /* ViewController.swift in Sources */,
+				40381FD91AA02E6C0070F88F /* Player.swift in Sources */,
+				40381FD11AA02D330070F88F /* Card.swift in Sources */,
+				40381FB11AA02CB10070F88F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40381FBC1AA02CB10070F88F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40381FC71AA02CB10070F88F /* BlackJack2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40381FC21AA02CB10070F88F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40381FAA1AA02CB10070F88F /* BlackJack2 */;
+			targetProxy = 40381FC11AA02CB10070F88F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40381FB91AA02CB10070F88F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40381FBA1AA02CB10070F88F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		40381FE01AA02FA10070F88F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40381FE11AA02FA10070F88F /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40381FC81AA02CB10070F88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40381FC91AA02CB10070F88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40381FCB1AA02CB10070F88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlackJack2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40381FCC1AA02CB10070F88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlackJack2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		40381FCE1AA02CB10070F88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlackJack2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlackJack2.app/BlackJack2";
+			};
+			name = Debug;
+		};
+		40381FCF1AA02CB10070F88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlackJack2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlackJack2.app/BlackJack2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40381FA61AA02CB10070F88F /* Build configuration list for PBXProject "BlackJack2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40381FC81AA02CB10070F88F /* Debug */,
+				40381FC91AA02CB10070F88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40381FCA1AA02CB10070F88F /* Build configuration list for PBXNativeTarget "BlackJack2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40381FCB1AA02CB10070F88F /* Debug */,
+				40381FCC1AA02CB10070F88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40381FCD1AA02CB10070F88F /* Build configuration list for PBXNativeTarget "BlackJack2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40381FCE1AA02CB10070F88F /* Debug */,
+				40381FCF1AA02CB10070F88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40381FA31AA02CB10070F88F /* Project object */;
+}
